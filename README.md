@@ -27,7 +27,7 @@
 
 Создайте в папке `Backend` файл `.env`:
 
-`MONGODB_CONNECTION_STRING="mongodb+srv://..."`
+`MONGODB_CONNECTION_STRING="mongodb+srv://..."`  
 `JWT_SECRET="..."`
 
 ## Установка и запуск
@@ -44,14 +44,14 @@
 
 Выполнить в терминале 1:
 
-`cd ./Backend`
-`npm install`
+`cd ./Backend`  
+`npm install`  
 `npm run dev`
 
 Выполнить в терминале 2:
 
-`cd ./Frontend`
-`npm install`
+`cd ./Frontend`  
+`npm install`  
 `npm start`
 
 ## Примечания
