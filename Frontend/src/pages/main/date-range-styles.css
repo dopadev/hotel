@@ -1,0 +1,56 @@
+.rdrDateDisplayWrapper {
+	background-color: var(--color-light-blue);
+	border-radius: 20px;
+	width: 100%;
+}
+
+.my-date-range-picker,
+.rdrCalendarWrapper,
+.rdrDateDisplayItem,
+.rdrDayNumber span,
+.rdrMonthAndYearWrapper {
+	font-size: 14px;
+}
+
+.my-date-range-picker,
+.rdrDateDisplayItem,
+.rdrDayNumber span {
+	padding: 5px;
+	padding-inline: 20px;
+}
+
+.rdrDateDisplayItem {
+	border-radius: 15px;
+}
+
+.rdrCalendarWrapper {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.rdrMonthAndYearWrapper {
+	width: 364px;
+	margin-inline: auto;
+}
+
+.rdrMonths {
+	align-items: center;
+}
+
+.rdrDateInput input,
+.rdrNextPrevButton,
+.rdrMonthPicker select,
+.rdrYearPicker select,
+.rdrDayNumber {
+	cursor: default;
+}
+
+.rdrDateInput,
+.rdrMonthPicker select,
+.rdrDay {
+	transition-duration: var(--transition-duration);
+}
+
+.rdrDateInput:hover {
+	border-color: currentColor;
+}
